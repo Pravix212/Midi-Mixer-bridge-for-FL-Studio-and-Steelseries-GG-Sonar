@@ -1,0 +1,10 @@
+{
+  "$schema": "https://docs.midi-mixer.com/schema/plugin.schema.json",
+  "id": "com.fl.sonar-bridge",
+  "name": "FL Studio & Sonar Bridge",
+  "version": "1.0.0",
+  "author": "Community",
+  "main": "index.js",
+  "type": "node",
+  "description": "Universal bridge for syncing FL Studio with MIDI Mixer and Sonar."
+}
