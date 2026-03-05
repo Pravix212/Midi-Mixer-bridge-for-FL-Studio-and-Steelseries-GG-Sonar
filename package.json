@@ -1,0 +1,20 @@
+{
+  "name": "sonar-bridge",
+  "version": "1.0.0",
+  "description": "SteelSeries Sonar Bridge with FL Studio Focus Block",
+  "main": "index.js",
+  "midi-mixer": {
+    "entry": "index.js",
+    "type": "fader"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "active-win": "^6.0.1",
+    "midi-mixer-plugin": "^1.0.0",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.0.0"
+  }
+}
